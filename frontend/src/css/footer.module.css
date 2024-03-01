@@ -1,0 +1,65 @@
+.storeName {
+  color: #252b42;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 50px;
+  width: 1027px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* fb, ins, github, x的連結區 */
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  color: #23a6f0;
+}
+.iconContainer a {
+  color: #23a6f0;
+}
+
+hr {
+  max-width: 1100px;
+  margin-top: 30px;
+  width: 65%; /* 設定水平線的寬度 */
+  border: none; /* 移除預設的邊框 */
+  border-top: 2px solid #e6e6e6; /* 設定水平線樣式和顏色 */
+}
+/* 資訊區 */
+.infoContainer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 1027px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px auto;
+  grid-template-rows: 170px;
+  grid-gap: 30px;
+}
+
+p {
+  color: #737373;
+  padding-top: 10px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+h6 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  background-color: #fafafa;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

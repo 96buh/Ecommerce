@@ -1,0 +1,77 @@
+.container {
+  height: 145px;
+  /* 背景色 */
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.storeName {
+  color: #252b42;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.searchBtn {
+  width: 58px;
+  height: 56px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #e6e6e6;
+  background-color: #23a6f0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: #1e8ccc;
+}
+
+/* 搜尋條 */
+.searchBar {
+  width: 910px;
+  height: 52px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #e6e6e6;
+  padding: 1px 6px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+/* 在搜尋條輸入 */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.btn {
+  border: none;
+  background-color: #d9d9d9;
+  color: #737373;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logInorRegister {
+  color: #23a6f0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logInorRegister:hover {
+  color: #1e8ccc;
+}
+
+.profileIcon {
+  cursor: pointer;
+}
+
+.logout {
+  cursor: pointer;
+  text-decoration: none;
+  color: #252b42;
+}
